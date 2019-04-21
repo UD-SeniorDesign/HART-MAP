@@ -10,7 +10,6 @@ public class targetManager : MonoBehaviour
     [Range(0,100)]
     public float dropTime = 10; // Number of ticks to keep a target alive after losing contact
     public Color dropColor = Color.red;
-    private Vector3 dropC = new Vector3(255, 0, 0);
     private WebLoader dataSource;
     private frame dataFrame;
     private int lastTick = -1;
@@ -66,7 +65,7 @@ public class targetManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        dropC = ColorToVector(dropColor);
+        
 
         if (map == null)
         {

@@ -74,6 +74,7 @@ public class WebLoader : MonoBehaviour
         lastUpdate = Time.time;
         try
         {
+            
             map = GameObject.FindGameObjectWithTag("map").GetComponent<AbstractMap>();
             map.OnInitialized += delegate { updateMap(); };
             map.OnUpdated += delegate { updateMap(); };
@@ -130,6 +131,7 @@ public class WebLoader : MonoBehaviour
         }
         if (commercialFlight)
         {
+            
             www.SetRequestHeader("commercialFlights", "1");
             www.SetRequestHeader("lngMin", lngMin.ToString());
             www.SetRequestHeader("lngMax", lngMax.ToString());
