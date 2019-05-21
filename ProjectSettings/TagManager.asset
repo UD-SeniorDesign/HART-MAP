@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Map
   - target
+  - ButtonHandler
+  - ButtonPanel
+  - fbx
+  - Text
   layers:
   - Default
   - TransparentFX

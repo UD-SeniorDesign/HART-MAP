@@ -21,44 +21,25 @@ namespace HoloToolkit.Unity.SpatialMapping
         [Tooltip("Zoom in (true) or Zoom out (false).")]
         public bool ZoomIn = false;
 
-        [Tooltip("Map to affect")]
-        public AbstractMap map;
-        
-        [Tooltip("Amount to zoom by")]
-        public float zoomAmount = 1;
-    
-        public GameObject Handler;
-        
-        private void findHandler()
-        {
-            Handler = GameObject.FindWithTag("ButtonHandler");
-        }
+        public Actions Handler;
         
         public virtual void OnInputClicked(InputClickedEventData eventData)
         {
-            HandleUpdate();
+            HandleEvent();
             eventData.Use();
         }
 
-        public void HandleUpdate()
+        private void HandleEvent()
         {
             if (Handler == null)
+                Handler = GameObject.FindGameObjectWithTag("ButtonHandler").GetComponent<Actions>();
+            if (Handler == null)
             {
-                findHandler();
+                Debug.LogError("No Button Handler found");
+                throw new System.MissingMemberException();
             }
-            float currZoom = Handler.GetComponent<vars>().CurrZoom;
-            if (ZoomIn)
-            {
-                currZoom = Mathf.Min(20, Mathf.Max(0, currZoom+zoomAmount));
-            }
-            else
-            {
-                currZoom = Mathf.Min(20, Mathf.Max(0, currZoom - zoomAmount));
-            }
-            Handler.GetComponent<vars>().CurrZoom = currZoom;
-            map.SetZoom(currZoom);
-            map.UpdateMap();
+            Handler.Zoom(ZoomIn);
         }
-        
+
     }
 }

@@ -6,7 +6,11 @@ using UnityEngine;
 public class vars : MonoBehaviour {
     private int currScale = 1;
     private float currZoom;
-
+    [Tooltip("Amount to zoom by")]
+    public float zoomAmount = 1;
+    [Tooltip("Amount to zoom by")]
+    [Range(0, 10)]
+    public int scaleAmount = 1;
     private AbstractMap map;
     public int CurrScale
     {
@@ -32,16 +36,5 @@ public class vars : MonoBehaviour {
         {
             currZoom = value;   
         }
-    }
-
-    private void OnEnable()
-    {
-        // Get the map and inital zoom
-        map = GameObject.FindGameObjectWithTag("Map").GetComponent<AbstractMap>();
-        if (map != null)
-        {
-            currZoom = map.Zoom;
-        }
-    }
-    
+    }    
 }

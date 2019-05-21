@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" IgnorableNamespaces="uap uap2 mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
-  <Identity Name="HART-MAP" Publisher="CN=DefaultCompany" Version="1.0.4.0" />
+  <Identity Name="HART-MAP" Publisher="CN=DefaultCompany" Version="1.0.6.0" />
   <mp:PhoneIdentity PhoneProductId="b1caf02c-b5d8-45a2-b897-e2e448e0b23e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>HART-MAP</DisplayName>

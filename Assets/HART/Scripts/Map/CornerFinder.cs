@@ -127,11 +127,12 @@ public class CornerFinder : MonoBehaviour
     {
         if (map != null)
         {
+            
             lats.Clear();
             longs.Clear();
             foreach (Transform tile in map.transform)
             {
-                if (tile.GetComponent<UnityTile>())
+                if (tile.GetComponent<UnityTile>() && tile.gameObject.activeSelf)
                 {
                     Mapbox.Utils.Vector2d latLong = tileToLatLong(tile.GetComponent<UnityTile>().UnwrappedTileId.Z, tile.GetComponent<UnityTile>().UnwrappedTileId.X, tile.GetComponent<UnityTile>().UnwrappedTileId.Y);
                     lats.Add((float)latLong.x);
@@ -153,6 +154,7 @@ public class CornerFinder : MonoBehaviour
 
                     float tmp = distance((float)map.CenterLatitudeLongitude.x, (float)map.CenterLatitudeLongitude.y, wl.latMax, wl.lngMin);
                     wl.satRadius = (90 - Mathf.Atan(400000.0f / tmp) * Mathf.Rad2Deg);
+                    //Debug.Log("WL query updated");
                     //Debug.Log(tmp + " " + wl.satRadius + " " + (90 - Mathf.Atan(400000.0f / tmp) * Mathf.Rad2Deg));
                 }
             }

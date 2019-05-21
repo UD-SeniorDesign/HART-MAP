@@ -343,7 +343,6 @@ namespace HoloToolkit.Unity.InputModule
                 {
                     DefaultCursorDistance = originalDefaultCursorDistance;
                 }
-
                 targetPosition = RayStep.GetPointByDistance(Pointer.Rays, DefaultCursorDistance);
                 lookForward = -RayStep.GetDirectionByDistance(Pointer.Rays, DefaultCursorDistance);
                 targetRotation = lookForward.magnitude > 0 ? Quaternion.LookRotation(lookForward, Vector3.up) : transform.rotation;

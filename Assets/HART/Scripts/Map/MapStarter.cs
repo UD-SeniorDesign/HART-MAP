@@ -6,8 +6,17 @@ using UnityEngine;
 public class MapStarter : MonoBehaviour {
     private AbstractMap map;
     public WebLoader wl;
+    public vars ButtonHandler;
     // Use this for initialization
     void Start () {
+        if (ButtonHandler == null)
+        {
+            ButtonHandler = GameObject.FindGameObjectWithTag("ButtonHandler").GetComponent<vars>();
+        }
+        if (ButtonHandler == null)
+        {
+            Debug.LogError("No Button handler found");
+        }
         if (wl == null)
         {
             try
@@ -24,7 +33,7 @@ public class MapStarter : MonoBehaviour {
             catch (System.Exception)
             {
 
-                Debug.Log("Did you forget to start the webloader?");
+                Debug.LogError("Did you forget to start the webloader?");
             }
 
 
@@ -45,7 +54,11 @@ public class MapStarter : MonoBehaviour {
     {
         if (map != null)
         {
+            ButtonHandler.GetComponent<Actions>().Scale(wl.scale);
             map.Initialize(wl.latLong, (int)wl.zoom);
+            ButtonHandler.CurrZoom = wl.zoom;
+
+            ButtonHandler.CurrScale = wl.scale;
             GameObject.FindGameObjectWithTag("GameController").GetComponent<CornerFinder>().newMap();
             GameObject.Destroy(gameObject);
         }

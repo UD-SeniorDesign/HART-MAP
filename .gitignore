@@ -37,5 +37,7 @@ sysinfo.txt
 *.unitypackage
 
 #Build folder
-UWP/
+UWP/*
+UWP1/*
+UWP2/*
 HART-MAP.code-workspace

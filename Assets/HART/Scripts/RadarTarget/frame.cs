@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 [System.Serializable]
@@ -40,6 +41,7 @@ public class frame
 [System.Serializable]
 public class gpsData
 {
+    private static readonly DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
     public void copy(gpsData a)
     {
         id = a.id;
@@ -53,6 +55,27 @@ public class gpsData
         UTMZ = a.UTMZ;
         TrueTrack = a.TrueTrack;
     }
+    public string getTextData()
+    {
+        string data = "";
+        
+        if (Type == "Aircraft")
+        {
+            data += Type + '\n' + id + '\n' + "Lat:" + Latitude + " Lon:" + Longitude+ '\n'+"Rotation " + TrueTrack+ "° from North";
+        }
+        else if (Type == "Train")
+        {
+            data += "Train station" + '\n' + id + "Lat:" + Latitude + " Lon:" + Longitude +'\n';
+            foreach (station sta in stops)
+            {
+                foreach (stationUpdates su in sta.updates)
+                {
+                    data += string.Format("Train:{0} on line {1} arriving at {2}\n", su.train, su.line,epoch.AddSeconds(su.arriveDepart.arrive).TimeOfDay);
+                }
+            }
+        }
+        return data;
+    }
     public string id = "";
     public string Type = "";
     public float Latitude = 0;
@@ -63,8 +86,31 @@ public class gpsData
     public float UTMN = 0;
     public string UTMZ = "";
     public float TrueTrack = 0;
+    public station[] stops;
+}
+[System.Serializable]
+public class station
+{
+    public string stationId = "";
+    public string stationName = "";
+    public float Latitude = 0;
+    public float Longitude = 0;
+    public stationUpdates[] updates; 
 }
 
+[System.Serializable]
+public class stationUpdates
+{
+    public string train = "";
+    public string line = "";
+    public trainTimings arriveDepart;
+}
+[System.Serializable]
+public class trainTimings
+{
+    public long arrive = 0;
+    public long depart = 0;
+}
 
 
 

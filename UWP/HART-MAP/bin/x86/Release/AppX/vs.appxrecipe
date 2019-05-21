@@ -19,24 +19,24 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Unity Projects\HART-MAP\UWP\HART-MAP\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BDCB87D0B78E70763EA9BF993997B8EC1F9F2003A873A33CD2BB46ED81FBBBF7</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>HART-MAP_1.0.4.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>9971A15541B5017B8B1B6A280DF3A4E69F15F9CE072F048BB96CA1CC0C7F283B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>HART-MAP_1.0.6.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>HART-MAP_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>HART-MAP</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.4.0</RegisteredVersion>
+    <RegisteredVersion>1.0.6.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-14T02:16:53.772</Modified>
+      <Modified>2019-05-01T16:38:57.938</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\bin\x86\Release\HART-MAP.exe">
       <PackagePath>entrypoint\HART-MAP.exe</PackagePath>
-      <Modified>2019-04-14T02:16:30.074</Modified>
+      <Modified>2019-05-01T16:38:32.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinay\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -498,13 +498,13 @@
       <PackagePath>WinRTBridge.winmd</PackagePath>
       <Modified>2019-04-05T12:32:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.27.2\Redist\Retail\x86\sqlite3.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.28.0\Redist\Retail\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
-      <Modified>2019-04-10T18:17:03.224</Modified>
+      <Modified>2019-04-17T12:40:04.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2019-04-14T01:51:36.735</Modified>
+      <Modified>2019-05-01T15:29:52.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -562,15 +562,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2019-04-14T01:50:18.894</Modified>
+      <Modified>2019-05-01T15:28:41.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2019-04-14T01:50:14.937</Modified>
+      <Modified>2019-05-01T15:28:37.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2019-04-14T01:50:11.357</Modified>
+      <Modified>2019-05-01T15:28:35.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -578,43 +578,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2019-04-14T01:50:18.888</Modified>
+      <Modified>2019-05-01T15:28:41.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2019-04-14T01:50:15.105</Modified>
+      <Modified>2019-05-01T15:28:37.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2019-04-14T01:50:16.210</Modified>
+      <Modified>2019-05-01T15:28:38.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2019-04-14T01:50:18.449</Modified>
+      <Modified>2019-05-01T15:28:41.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2019-04-14T01:50:11.348</Modified>
+      <Modified>2019-05-01T15:28:35.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2019-04-14T01:50:16.184</Modified>
+      <Modified>2019-05-01T15:28:38.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2019-04-14T01:50:18.436</Modified>
+      <Modified>2019-05-01T15:28:40.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2019-04-14T01:51:36.487</Modified>
+      <Modified>2019-05-01T15:29:52.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2019-04-14T01:51:36.489</Modified>
+      <Modified>2019-05-01T15:29:52.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2019-04-14T01:50:18.426</Modified>
+      <Modified>2019-05-01T15:28:40.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -622,255 +622,255 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-14T02:16:30.767</Modified>
+      <Modified>2019-05-01T16:38:34.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.374</Modified>
+      <Modified>2019-05-01T16:38:53.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.408</Modified>
+      <Modified>2019-05-01T16:38:53.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.437</Modified>
+      <Modified>2019-05-01T16:38:53.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.473</Modified>
+      <Modified>2019-05-01T16:38:53.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.507</Modified>
+      <Modified>2019-05-01T16:38:53.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.533</Modified>
+      <Modified>2019-05-01T16:38:53.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.562</Modified>
+      <Modified>2019-05-01T16:38:53.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.598</Modified>
+      <Modified>2019-05-01T16:38:53.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.626</Modified>
+      <Modified>2019-05-01T16:38:53.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.655</Modified>
+      <Modified>2019-05-01T16:38:53.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.676</Modified>
+      <Modified>2019-05-01T16:38:53.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.702</Modified>
+      <Modified>2019-05-01T16:38:53.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.732</Modified>
+      <Modified>2019-05-01T16:38:53.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.757</Modified>
+      <Modified>2019-05-01T16:38:53.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.784</Modified>
+      <Modified>2019-05-01T16:38:53.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.824</Modified>
+      <Modified>2019-05-01T16:38:53.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.853</Modified>
+      <Modified>2019-05-01T16:38:53.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.878</Modified>
+      <Modified>2019-05-01T16:38:53.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:49.926</Modified>
+      <Modified>2019-05-01T16:38:53.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.020</Modified>
+      <Modified>2019-05-01T16:38:53.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.078</Modified>
+      <Modified>2019-05-01T16:38:53.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.145</Modified>
+      <Modified>2019-05-01T16:38:53.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.203</Modified>
+      <Modified>2019-05-01T16:38:53.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.267</Modified>
+      <Modified>2019-05-01T16:38:53.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.318</Modified>
+      <Modified>2019-05-01T16:38:53.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.366</Modified>
+      <Modified>2019-05-01T16:38:53.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.411</Modified>
+      <Modified>2019-05-01T16:38:53.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.468</Modified>
+      <Modified>2019-05-01T16:38:53.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.511</Modified>
+      <Modified>2019-05-01T16:38:53.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.539</Modified>
+      <Modified>2019-05-01T16:38:53.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:50.577</Modified>
+      <Modified>2019-05-01T16:38:54.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.009</Modified>
+      <Modified>2019-05-01T16:38:54.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.146</Modified>
+      <Modified>2019-05-01T16:38:54.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.182</Modified>
+      <Modified>2019-05-01T16:38:54.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.236</Modified>
+      <Modified>2019-05-01T16:38:54.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.294</Modified>
+      <Modified>2019-05-01T16:38:54.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.326</Modified>
+      <Modified>2019-05-01T16:38:54.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.392</Modified>
+      <Modified>2019-05-01T16:38:54.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.458</Modified>
+      <Modified>2019-05-01T16:38:54.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.509</Modified>
+      <Modified>2019-05-01T16:38:54.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.904</Modified>
+      <Modified>2019-05-01T16:38:55.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:51.992</Modified>
+      <Modified>2019-05-01T16:38:55.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.019</Modified>
+      <Modified>2019-05-01T16:38:55.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.044</Modified>
+      <Modified>2019-05-01T16:38:55.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.069</Modified>
+      <Modified>2019-05-01T16:38:55.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2019-04-14T01:50:56.793</Modified>
+      <Modified>2019-05-01T15:29:15.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.150</Modified>
+      <Modified>2019-05-01T16:38:55.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.214</Modified>
+      <Modified>2019-05-01T16:38:55.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.297</Modified>
+      <Modified>2019-05-01T16:38:55.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.400</Modified>
+      <Modified>2019-05-01T16:38:56.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Mapbox.VectorTile.Geometry.dll">
       <PackagePath>Mapbox.VectorTile.Geometry.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.448</Modified>
+      <Modified>2019-05-01T16:38:56.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.484</Modified>
+      <Modified>2019-05-01T16:38:56.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.517</Modified>
+      <Modified>2019-05-01T16:38:56.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Mapbox.VectorTile.VectorTileReader.dll">
       <PackagePath>Mapbox.VectorTile.VectorTileReader.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.547</Modified>
+      <Modified>2019-05-01T16:38:56.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Mapbox.VectorTile.ExtensionMethods.dll">
       <PackagePath>Mapbox.VectorTile.ExtensionMethods.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.573</Modified>
+      <Modified>2019-05-01T16:38:56.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.597</Modified>
+      <Modified>2019-05-01T16:38:56.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Mapbox.VectorTile.PbfReader.dll">
       <PackagePath>Mapbox.VectorTile.PbfReader.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.647</Modified>
+      <Modified>2019-05-01T16:38:56.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.728</Modified>
+      <Modified>2019-05-01T16:38:56.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.815</Modified>
+      <Modified>2019-05-01T16:38:56.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Mapbox.IO.Compression.dll">
       <PackagePath>Mapbox.IO.Compression.dll</PackagePath>
-      <Modified>2019-04-14T02:16:52.854</Modified>
+      <Modified>2019-05-01T16:38:56.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\Mapbox.Json.dll">
       <PackagePath>Mapbox.Json.dll</PackagePath>
-      <Modified>2019-04-14T02:16:53.074</Modified>
+      <Modified>2019-05-01T16:38:56.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity Projects\HART-MAP\UWP\HART-MAP\bin\x86\Release\Core\HART-MAP.exe">
       <PackagePath>HART-MAP.exe</PackagePath>
-      <Modified>2019-04-14T02:16:53.769</Modified>
+      <Modified>2019-05-01T16:38:57.921</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

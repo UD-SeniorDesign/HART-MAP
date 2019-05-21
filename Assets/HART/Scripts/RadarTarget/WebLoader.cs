@@ -11,14 +11,17 @@ public class WebLoader : MonoBehaviour
     public bool demoLoop = false;
     public bool commercialFlight = false;
     public bool satellite = false;
+    public bool MTA = false;
     public float satRadius = 20.0f;
     public float latMin = 40.647120f;
     public float latMax = 40.948716f;
     public float lngMin = -74.181003f;
     public float lngMax = -73.619899f;
+    public int scale = 5;
     public Mapbox.Utils.Vector2d latLong = new Mapbox.Utils.Vector2d(40.778424, -73.966572);
     public float zoom = 16.0f;
     public bool debug = false;
+    public bool pause = false;
     private AbstractMap map;
 
     public frame dataFrame;
@@ -71,6 +74,7 @@ public class WebLoader : MonoBehaviour
 
     void Start()
     {
+        
         lastUpdate = Time.time;
         try
         {
@@ -108,7 +112,7 @@ public class WebLoader : MonoBehaviour
             }
         }
 
-        if (Time.time - lastUpdate > delay && map != null)
+        if (Time.time - lastUpdate > delay && map != null && !pause)
         {
             StartCoroutine(GetData());
             lastUpdate = Time.time;
@@ -149,6 +153,10 @@ public class WebLoader : MonoBehaviour
             www.SetRequestHeader("satRadius", satRadius.ToString());
 
             //request += string.Format(satelliteURL, latLong.x, latLong.y, satRadius);
+        }
+        if (MTA)
+        {
+            www.SetRequestHeader("publicTransit", "1");
         }
         //request = request.TrimEnd('&');
         /*if (debug)
